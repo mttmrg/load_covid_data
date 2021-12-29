@@ -23,3 +23,8 @@ The script contains also the following functions:
 
 The create_graphs function generates two graphs, one for the number of cases and one for the number of deaths for the reporting country with all the data from the covid_table array.
 The create_stats function shows the percentage increase.
+
+# Automatization
+You can use information found here:
+https://www.mathworks.com/matlabcentral/answers/99750-how-do-i-execute-a-matlab-script-at-a-specific-time-each-day
+to automatically run the script once a day.
