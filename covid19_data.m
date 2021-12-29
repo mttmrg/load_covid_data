@@ -1,7 +1,9 @@
 clear all
 clc
-
+covid_table=[];
+if isfile('covid_table.mat')
 load('covid_table.mat');
+end
 old_covid_table=covid_table;
 
 html=webread('https://www.worldometers.info/coronavirus');
