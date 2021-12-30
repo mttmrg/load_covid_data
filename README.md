@@ -1,4 +1,4 @@
-# Visualization on the spread of the COVID-19 virus
+# Visualization of the spread of the COVID-19 virus
 Loading, processing and plotting the data from https://www.worldometers.info/coronavirus on Matlab. The information are collected automatically from the online repository, so an internet connection is needed in order to run the script.
 
 The script creates and updates a covid_table array of structures which contains an entry for each time the script is run and consists of two fields: date and data.
